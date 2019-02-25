@@ -27,12 +27,19 @@
                         <th>Code</th>
                         <th>Available</th>
                         <th>Price</th>
-                        <th> star rating</th>
+                        <th>5 star rating</th>
                     </tr>
                 </thead>
-                <body>
-                    
-                </body>
+                <tbody>
+                    <tr *ngFor='let product of products'>
+                        <td></td>
+                        <td>{{product.productName}}</td>
+                        <td>{{product.productCode}}</td>
+                        <td>{{product.releaseDate}}</td>
+                        <td>{{product.price}}</td>
+                        <td>{{product.starRating}}</td>
+                    </tr>
+                </tbody>
             </table>
         </div>
     </div>
