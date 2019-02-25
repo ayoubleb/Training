@@ -7,4 +7,4 @@ import { Component} from '@angular/core';
 })
 
 export class AppComponent{
-  title : string = 'my first cpomponent';}
+  title : string = 'Product Management Store';}
