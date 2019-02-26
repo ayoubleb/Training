@@ -1,4 +1,7 @@
 {
   "files.autoSave": "afterDelay",
-  "html.format.wrapAttributes": "force-aligned"
+  "html.format.wrapAttributes": "force-aligned",
+  "tslint.alwaysShowRuleFailuresAsWarnings": false,
+  "tslint.jsEnable": true,
+  "tslint.ignoreDefinitionFiles": true
 }
