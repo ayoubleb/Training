@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {IProduct} from "./product";
 
 @Component({
   templateUrl: './product-detail.component.html',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductDetailComponent implements OnInit {
 
+  pageTitle:string = 'Product detail';
+  product : IProduct;
   constructor() { }
 
   ngOnInit() {
